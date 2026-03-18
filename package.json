@@ -1,0 +1,22 @@
+{
+  "name": "cloud-monitor-nodejs",
+  "version": "1.0.0",
+  "description": "Senior Node.js Interview Project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.5.0",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.2",
+    "nodemon": "^3.1.14"
+  }
+}
