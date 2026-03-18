@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloud-monitor
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cloud-monitor
+  template:
+    metadata:
+      labels:
+        app: cloud-monitor
+    spec:
+      containers:
+        - name: cloud-monitor
+          image: your-dockerhub/cloud-monitor:latest
+          ports:
+            - containerPort: 5000
