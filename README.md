@@ -225,7 +225,7 @@ DOWN → DOWN → No alert (avoid spam)
 ## 👨‍💻 Author
 
 **Souvik De**
-
+🔗 LinkedIn: https://www.linkedin.com/in/souvik-de-567942126/
 ---
 
 ## ⭐ Why This Project?
